@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             Anchor anchor = hitResult.createAnchor();
 
             ModelRenderable.builder()
-                    .setSource(this, Uri.parse("FALCON9.sfb"))
+                    .setSource(this, Uri.parse("SpaceShuttle(1).sfb"))
                     .build()
                     .thenAccept(modelRenderable -> addModelToScene(anchor, modelRenderable))
                     .exceptionally(throwable -> {

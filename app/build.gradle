@@ -35,7 +35,12 @@ dependencies {
 }
 
 
-sceneform.asset('sampledata/FALCON9.obj',
+sceneform.asset('sampledata/SpaceShuttle(1).obj',
         'default',
-        'sampledata/FALCON9.sfa',
+        'sampledata/SpaceShuttle(1).sfa',
         'src/main/assets/FALCON9')
+
+sceneform.asset('sampledata/SpaceShuttle(1).obj',
+        'default',
+        'sampledata/SpaceShuttle(1).sfa',
+        'src/main/assets/SpaceShuttle(1)')
